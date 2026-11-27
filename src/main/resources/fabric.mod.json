@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "hitboxexpander",
+  "version": "1.0.0",
+  "name": "Hitbox Expander",
+  "description": "Увеличивает хитбоксы.",
+  "authors": ["He"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": { "client": ["com.example.hitboxexpander.HitboxExpanderClient"] },
+  "depends": { "fabricloader": ">=0.16.9", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
